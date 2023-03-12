@@ -11,9 +11,9 @@ int max = num1;
 
 if (num1 < num2)
 {
-    Console.WriteLine("Второе число максимальное");
+    Console.WriteLine("Второе число максимальное, первое минимальное");
 }
 else
 {
-    Console.WriteLine("Первое число максимальное");
+    Console.WriteLine("Первое число максимальное, второе минимальное");
 }
