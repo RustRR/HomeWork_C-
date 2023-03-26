@@ -11,7 +11,7 @@ void massif(int a)
     for (int i = 0; i < a; i++)
     {
         randomArray[i] = new Random().Next(99, 999);
-        Console.Write(randomArray[i] + " ");
+        Console.Write(randomArray[i] + ", ");
     }
 
 }
